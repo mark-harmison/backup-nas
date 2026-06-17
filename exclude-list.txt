@@ -1,0 +1,25 @@
+[#]recycle/
+@eaDir/
+.ssh/
+.venv/
+.dtrash/
+synoreport/
+.Thumbs*
+.cache/
+# ==============================================================================
+# WINDOWS/EXFAT INVALID CHARACTER EXCLUSIONS
+# ==============================================================================
+# Exclude any file or folder containing a colon (:)
+*:*
+
+# Exclude any file or folder containing an asterisk (*)
+*\**
+
+# Exclude any file or folder containing a question mark (?)
+*\?*
+
+# Exclude any file or folder containing vertical bars, less-than, or greater-than
+*\|*
+*\<*
+*\>*
+
